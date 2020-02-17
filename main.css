@@ -1,0 +1,138 @@
+body{
+  line-height: 1.6;
+}
+a {
+  color: black;
+}
+article {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12pt;
+  max-width: 800px;
+  margin: 24px auto;
+  word-spacing: normal;
+}
+q {
+  quotes: "„" "“" "‚" "‘";
+}
+q::before {
+  content: open-quote;
+}
+q:after {
+  content: close-quote;
+}
+article header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+article h1 {
+  font-size: 22pt;
+}
+article h1:after{
+    border-bottom:1.5px solid grey;
+    display: block;
+    content: " ";
+    margin-left: 25px;
+	width:200px;
+}
+article h2 {
+  font-size: 19pt;
+}
+article h3 {
+  font-size: 16pt;
+}
+artice h4{
+    font-size: 14pt;
+}
+article figcaption{
+  text-align: left;
+  padding-left: .5rem;
+  margin-top: 0.3rem;
+  border-left: solid rgb(177, 177, 177) 0.6rem;
+}
+article header div,
+article figcaption {
+  font-size: 10pt;
+  color: rgb(92, 92, 92);
+}
+article h1, article h2,
+article h3, article h4,
+article header div,
+article figure, article p,
+article ul, article ol,
+article blockquote, article footer {
+  margin: 0;
+  margin-top: 0.9rem;
+}
+article header div a,
+article figcaption a,
+article footer div a {
+  color: rgb(92, 92, 92);
+}
+article figure img {
+  max-width: 100%;
+}
+article ul, article ol {
+  list-style-position: outside;
+  padding: 0 0 0 2rem;
+  line-height: 2;
+}
+article ul ul, article ol ol,
+article ul ol, article ol ul {
+  margin: 0;
+  line-height: 1.6;
+}
+article blockquote {
+  font-style: italic;
+  font-size: 12pt;
+  margin-left: 0.8rem;
+  padding-left: 0.8rem;
+  border-left: solid rgb(177, 177, 177) 0.7rem;
+}
+article footer {
+  text-align: center;
+  height: 25px;
+  padding-top: 0.6rem;
+  border-top: rgb(177, 177, 177) 1px solid;
+  font-size: 9pt;
+}
+section > footer{
+    font-size: 8pt; 
+    color: grey;
+    width: 100%;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 768px) {
+  article {
+    margin: 24px auto;
+    font-size: 13pt;
+  }
+  article footer {
+    font-size: 10pt;
+}
+  section > footer{
+    font-size: 9pt;        
+}    
+}
+
+
+@media print {
+    section > footer, aside, form, navigation {
+        display: none;
+    }
+    article figcaption a{
+        text-decoration: none;
+    }
+    article{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        margin-top: 50px;
+    }
+    article h3{
+        margin: 0;
+        margin-top: 30px;
+    }
+}
+    
