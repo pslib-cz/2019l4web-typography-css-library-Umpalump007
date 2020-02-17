@@ -133,7 +133,7 @@ section > footer{
 
 
 @media print {
-    section > footer, aside, form, navigation {
+    section > footer, aside, form, navigation, button {
         display: none;
     }
     article figcaption a{
