@@ -88,6 +88,21 @@ article blockquote {
   padding-left: 0.8rem;
   border-left: solid rgb(177, 177, 177) 0.7rem;
 }
+button{
+    color: #3a3833;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 14pt;
+    background: transparent;
+    border: solid grey 2px;
+    border-radius: 50px;
+    transition: .6s;
+}
+button:hover{
+    opacity: .3;
+}
+
 article footer {
   text-align: center;
   height: 25px;
