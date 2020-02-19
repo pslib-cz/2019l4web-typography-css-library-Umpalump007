@@ -1,6 +1,6 @@
 # Typography style set
 CSS style sheet, that optimizes a blog posts
-### *Index.html* serves as an example of use
+### **Index.html** serves as an example of use
 ## Implementation
 
 ```html
@@ -19,9 +19,9 @@ CSS style sheet, that optimizes a blog posts
 </html>
 ```
 ## Usage
-This style sheet is based on a *html* structure, so you just need to change atributes in *index.html*
+This style sheet is based on a **html** structure, so you just need to change atributes in **index.html**
 
-Entire blog is basically closed in <article> tag.
+Entire blog is basically closed in **< article >** tag.
 
 ```html
 <article>
